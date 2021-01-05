@@ -1,9 +1,10 @@
 # jan2020revision
 
 ### plc
-
-(COMS20007 GitLab)[https://cs-uob.github.io/COMS20007]
+(https://cs-uob.github.io/COMS20007)[COMS20007 GitLab]
 
 ### alg
 
-(Blackboard)[https://www.ole.bris.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_240782_1&content_id=_4562987_1]
+(https://www.ole.bris.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_240782_1&content_id=_4562987_1)[Blackboard]
+
+
