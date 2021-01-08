@@ -1,9 +1,46 @@
 # jan2020revision
 
-### plc
+# plc
 [COMS20007 GitLab](https://cs-uob.github.io/COMS20007)
 
-### alg
+## 
+
+### Turing Computablility
+
+A language is said to be Turing-recognisable or recursively enumerable, just if it is recognised by some Turing machine.
+
+A language is said to be co-Turing-recognisible or corecursively enumerable, just if its complement is recognised by some Turing machine.
+
+A language is said to be Turing-decidable or recursive, just if it is decided by some Turing machine.
+
+Theorem: A language is Turing-decidable iff it is both Turing-recognisible and Turing-corecognisible.
+
+### Turing Reductions
+Language A⊆Σ∗ is mapping reducible to language B⊆Σ∗, written A≤mB just if there is a computable function f:Σ∗→Σ∗ such that, for all w∈Σ∗:
+w∈A iff  f(w)∈B
+
+The function f is called the reduction.
+
+Lemma: If A≤mB then Ac≤mBc.
+
+Theorem: If A≤mB and B is Turing-recognisible then A is Turing-recognisible.
+
+Corollary: If A≤mB and A is not Turing-recognisible, then B is not Turing-recognisible.
+
+Corollary: If A≤mB and A is not co-Turing-recognisible, then B is not co-Turing-recognisible.
+
+Corollary: If A≤mB and A is not Turing-decidable, then B is not Turing-decidable.
+
+## Useful strategies:
+
+- To prove L is turing recognisable, give the machine that recognises it. This must exist if L is TR by def
+- To prove L is NOT Turing Decidable then reduce A_tm to it (or reduce any Non-TD L to it)
+- To prove L is Turing decidable show both L and L^c are Turing recognisable
+- Lots of questions require two way proofs - usually if there is an *iff*
+
+
+
+# alg
 
 ### lemmas & statements
 
